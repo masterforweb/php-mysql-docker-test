@@ -1,0 +1,30 @@
+# Ignore configuration files that might contain sensitive data
+.env
+
+# Ignore Composer dependencies (if they are installed inside the container)
+vendor/
+app/
+
+# Ignore node_modules if using Node.js for frontend dependencies
+node_modules/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
